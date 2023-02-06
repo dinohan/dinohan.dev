@@ -10,6 +10,9 @@
   "author": "dinohan <dinohan.dev@gmail.com>",
   "license": "MIT",
   "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "newpost": "yarn workspace blog.dinohan.dev newpost"
+  },
   "devDependencies": {
     "@types/eslint": "^8",
     "@types/prettier": "^2",
