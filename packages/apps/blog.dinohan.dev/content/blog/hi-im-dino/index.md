@@ -1,7 +1,8 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: Hi, I'm dino
+date: "2023-02-06T12:59:42.366Z"
+description: This is my first post
+tags:
 ---
 
 This is my first post on my new fake blog! How exciting!

@@ -32,9 +32,14 @@ const Layout = ({
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <ul>
+          <li>
+            <a href="mailto:dinohan.dev@gmail.com">dinohan.dev@gmail.com</a>
+          </li>
+          <li>
+            <a href="https://github.com/dinohan" target="_blank" >github.com/dinohan</a>
+          </li>
+        </ul>
       </footer>
     </div>
   )

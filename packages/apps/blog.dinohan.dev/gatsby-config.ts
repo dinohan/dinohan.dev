@@ -2,14 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Dino's Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Dino Han`,
+      summary: `who is Frontend Engineer`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    siteUrl: `https://blog.dinohan.dev/`,
   },
   plugins: [
     `gatsby-plugin-image`,
