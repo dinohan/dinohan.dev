@@ -15,7 +15,15 @@ const NotFoundPage = ({
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="404: Not Found" />
+      <Seo
+        lang="ko"
+        title="404: Not Found"
+        meta={[
+          {
+            name: `robots`,
+          }
+        ]}
+      />
       <h1>404: Not Found</h1>
       <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
     </Layout>
